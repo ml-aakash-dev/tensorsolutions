@@ -1,0 +1,124 @@
+<div class="set-appointment">
+<h3>Set your Appointment:</h3>
+<div>Call Today</div>
+<h3><a href="tel:954-987-7512">954-987-7512</a></h3>
+<p>-OR-</p>
+
+<div>Send Us A Message</div>
+<p>Fill out an appointment request form below:</p>
+</div>
+<div id="zohoSupportWebToCase" style="text-align: left;" align="left">
+<div class="form-section">
+<form id="zsWebToCase_485846000000156001" action="https://desk.zoho.com/support/WebToCase" enctype="multipart/form-data" method="POST" name="zsWebToCase_485846000000156001" style="width:100%" ><input name="xnQsjsdp" type="hidden" value="JNi*LjCgRhlx6ffOy*amAQ$$" /> <input name="xmIwtLD" type="hidden" value="jKd69J8OSSZLMC2LYgH4dG-*B6-MHnNR" /> <input name="xJdfEaS" type="hidden" value="" /> <input name="actionType" type="hidden" value="Q2FzZXM=" /> <input id="property(module)" type="hidden" value="Cases" /> <input id="dependent_field_values_Cases" type="hidden" value="{&quot;JSON_VALUES&quot;:{},&quot;JSON_SELECT_VALUES&quot;:{},&quot;JSON_MAP_DEP_LABELS&quot;:[]}" /> <input name="returnURL" type="hidden" value="*" />
+<table class="zsFormClass" border="0" style="width:100%" cellspacing="0">
+<tbody>
+<tr>
+<td class="zsFontClass" colspan="2"></td>
+</tr>
+<h2 class="title">Contact Us</h2>
+<div class="dfdghfjh">
+<tr>
+<lable class="zsFontClass " align="left" nowrap="nowrap">Email</label>
+<td align="left" width="75%"><input class="manfieldbdr" maxlength="120" name="Email" type="text" value="" /></td>
+</tr></div>
+<tr>
+<td class="zsFontClass " align="left" nowrap="nowrap">First and Last Name</td>
+<td align="left" width="75%"><input class="manfieldbdr" maxlength="120" name="Contact Name" type="text" /></td>
+</tr>
+<tr>
+<td class="zsFontClass " align="left" nowrap="nowrap">Phone#</td>
+<td align="left" width="75%"><input class="manfieldbdr" maxlength="255" name="Subject" type="text" value="" /></td>
+</tr>
+<tr>
+<td class="zsFontClass " align="left" nowrap="nowrap">Date of Birth</td>
+<td align="left" width="75%"><input maxlength="20" name="Date of Birth" type="text" value="" placeholder="MM/dd/yyyy" /></td>
+</tr>
+<tr>
+<td class="zsFontClass " align="left" nowrap="nowrap">Been here before?</td>
+<td align="left" width="75%"><select id="CASECF1" name="Been here before?" onchange="setDependent(this, false)">
+<option value="Not Sure">Not Sure</option>
+<option value="New Patient">New Patient</option>
+<option value="Existing Patient">Existing Patient</option>
+</select></td>
+</tr>
+<tr>
+<td class="zsFontClass " align="left" nowrap="nowrap" style="margin-top: 18px;">Preferred Provider</td>
+<td align="left"><select id="CASECF42" multiple="multiple" name="Preferred Provider" onchange="setDependent(this, false)">
+<option value="Any Provider (preferred time more important)">Any Provider (preferred time more important)</option>
+<option value="Norman Minars MD">Norman Minars MD</option>
+<option value="Alejandra Vivas MD">Alejandra Vivas MD</option>
+<option value="Ran Huo MD">Ran Huo MD</option>
+<option value="Todd Minars MD">Todd Minars MD</option>
+<option value="Marianna Helin ARNP">Marianna Helin ARNP</option>
+<option value="Richard Galitz MD">Richard Galitz MD</option>
+<option value="Catherine Balestra MD">Catherine Balestra MD</option>
+<option value="Harold Jaimes MD (Vein Doctor)">Harold Jaimes MD (Vein Doctor)</option>
+<option value="Lucy Martin MD">Lucy Martin MD</option>
+<option value="Pamela Miller PA-C">Pamela Miller PA-C</option>
+<option value="Traci Long PA-C">Traci Long PA-C</option>
+<option value="Timothy Wu MD">Timothy Wu MD</option>
+</select></td>
+</tr>
+<tr>
+<td class="zsFontClass " align="left" nowrap="nowrap" style="margin-top: 18px;" width="25%">AM or PM - and preferred day of week</td>
+<td align="left" width="75%"><input maxlength="120" name="AM or PM - and preferred day of week" type="text" value="" /></td>
+</tr>
+<tr>
+<td class="zsFontClass " align="left" nowrap="nowrap">Comments or Questions</td>
+<td align="left" width="75%"><textarea maxlength="3000" name="Comments or Questions"></textarea></td>
+</tr>
+<tr style="display: none;">
+<td class="zsFontClass " align="left" nowrap="nowrap">From Minars Dermatology</td>
+<td align="left"><input maxlength="120" name="From Minars Dermatology" type="text" value="From Minars Dermatology" /></td>
+</tr>
+<tr style="display: none;">
+<td class="zsFontClass " align="left" nowrap="nowrap" width="25%">Source</td>
+<td align="left" width="75%"><input maxlength="120" name="Source" type="text" value="1" /></td>
+</tr>
+<tr style="display: none;">
+<td class="zsFontClass " align="left" nowrap="nowrap" width="25%">Priority</td>
+<td align="left" width="75%"><select id="Priority" name="Priority" onchange="setDependent(this, false)">
+<option value="">-None-</option>
+<option selected="selected" value="High">High</option>
+<option value="Medium">Medium</option>
+<option value="Low">Low</option>
+</select></td>
+</tr>
+<tr style="display: none;">
+<td class="zsFontClass " align="left" nowrap="nowrap" width="25%">Status</td>
+<td align="left"><select id="Status" name="Status" onchange="setDependent(this, false)">
+<option selected="selected" value="Open">Open</option>
+<option value="On Hold">On Hold</option>
+<option value="Escalated">Escalated</option>
+<option value="Closed">Closed</option>
+</select></td>
+</tr>
+<tr>
+<td colspan="2" align="center" class="contact">
+<input id="zsSubmitButton_485846000000156001" class="zsFontClass" type="submit" value="Contact Us" />
+<!--
+    <input class="zsFontClass" type="button" value="Reset" /></td>
+-->
+</tr>
+<tr>
+<td align="left" width="25%"></td>
+<td style="padding: 0px 5px;" align="left" width="75%">
+<div class="wb_FtCon wb_common"></div></td>
+</tr>
+</tbody>
+</table>
+</form></div></div>
+
+<div class="location-section">
+<h2 class="title">LOCATION</h2>
+
+<hr />
+
+<img class="size-medium wp-image-124 alignleft" src="https://www.minarsdermatology.com/wp-content/uploads/2017/10/map-300x166.png" alt="" width="300" height="166" />Located in:
+
+Sheridan Hills Professional Plaza
+<strong>4060 Sheridan Street</strong>
+<strong> Suite C</strong>
+<strong> Hollywood, FL 33021</strong>
+
+<iframe style="border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3585.0389123231853!2d-80.18713204916739!3d26.032282803619758!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9abd5f72a5451%3A0x90ae018dbbf40179!2sMinars+Dermatology!5e0!3m2!1sen!2sus!4v1529330836206" width="600" height="450" frameborder="0" allowfullscreen="allowfullscreen"></iframe></div>
